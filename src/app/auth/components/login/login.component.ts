@@ -1,4 +1,5 @@
 import { Component ,inject} from '@angular/core';
+import { FormControl, FormGroup } from '@angular/forms';
 import { LoginService } from '../../service/login/loginService';
 
 @Component({
@@ -8,6 +9,17 @@ import { LoginService } from '../../service/login/loginService';
   styleUrl: './login.component.scss'
 })
 export class LoginComponent {
-    private authService = inject (LoginService);
+  loginForm = new FormGroup({
+    email: new FormControl(''),
+    password: new FormControl('')
+  });
 
+  get email() {
+    return this.loginForm.get('email');
+  }
+
+  get password() {
+    return this.loginForm.get('password');
+  }
+  // ...existing code...
 }

@@ -14,13 +14,13 @@ export const appConfig: ApplicationConfig = {
     provideRouter(routes),
     provideFirebaseApp(() => 
       initializeApp({
-        apiKey: "AIzaSyAl0AMubsVA0Yhhypt-1dbYMBJ55E7_-Wk",
-  	authDomain: "ec3-2025-ib.firebaseapp.com",
-  	projectId: "ec3-2025-ib",
-  	storageBucket: "ec3-2025-ib.firebasestorage.app",
-  	messagingSenderId: "529666123942",
-  	appId: "1:529666123942:web:edcf8725aed33b65f66c67",
-  	measurementId: "G-CEM91X1VDV"
+        apiKey: "AIzaSyDCEgKuNLAcGaUvw_sU1Kix68FSmjbT1HI",
+        authDomain: "daa-ii-2025-8049a.firebaseapp.com",
+        projectId: "daa-ii-2025-8049a",
+        storageBucket: "daa-ii-2025-8049a.firebasestorage.app",
+        messagingSenderId: "986227776473",
+        appId: "1:986227776473:web:8c41acf1e51b63fc3557c8",
+        measurementId: "G-8193WQKRKS"
       })
 
     ),
